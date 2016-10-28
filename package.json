@@ -1,0 +1,57 @@
+{
+  "name": "web-testing",
+  "version": "1.0.0",
+  "description": "Web testing examples",
+  "private": true,
+  "homepage": "https://github.com/vulcan-estudios/web-testing#readme",
+  "author": "Vulcan Estudios Ltda.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vulcan-estudios/web-testing.git"
+  },
+  "main": "server/index.js",
+  "scripts": {
+    "start": "babel-node server/index.js",
+    "build": "webpack",
+    "test": "npm run test-shared && npm run test-server && npm run test-client",
+    "test-shared": "npm run test-shared-unit",
+    "test-shared-unit": "NODE_ENV=test mocha './test/mocha-setup.js' './shared/**/*.test.js'",
+    "test-server": "npm run test-server-unit && npm run test-server-integration",
+    "test-server-unit": "echo \"TODO\"",
+    "test-server-integration": "echo \"TODO\"",
+    "test-client": "npm run test-client-unit && npm run test-client-integration && npm run test-client-e2e",
+    "test-client-unit": "echo \"TODO\"",
+    "test-client-integration": "echo \"TODO\"",
+    "test-client-e2e": "echo \"TODO\""
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "mongoose": "^4.6.5",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.18.0",
+    "babel-loader": "^6.2.7",
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-1": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "chai": "^3.5.0",
+    "chai-enzyme": "^0.5.2",
+    "chai-http": "^3.0.0",
+    "enzyme": "^2.5.1",
+    "karma": "^1.3.0",
+    "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-mocha": "^1.2.0",
+    "karma-mocha-reporter": "^2.2.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.8.0",
+    "mocha": "^3.1.2",
+    "webpack": "^1.13.3"
+  }
+}
