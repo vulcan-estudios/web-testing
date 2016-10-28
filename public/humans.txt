@@ -1,0 +1,9 @@
+/* humanstxt.org */
+
+/* SITE */
+  Standards: ES2015, JSX
+  Components: Express, Mongoose, React
+  Software: Unix, Git, Atom
+
+/* TEAM */
+  Vulcan Estudios Team
