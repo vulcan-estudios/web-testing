@@ -1,4 +1,11 @@
+const path = require('path');
+
+const srcPath = path.join(process.cwd(), '/src');
+
 module.exports = {
+  resolve: {
+    fallback: srcPath
+  },
   entry: {
     'app1': './src/client/app1/index.js',
   },

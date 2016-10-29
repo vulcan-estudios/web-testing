@@ -1,6 +1,9 @@
 #!/bin/bash
 
-## Environment setup.
+# Environment setup.
+
+## Complementary dependencies.
+sudo apt-get install libfontconfig
 
 ## Node.js
 curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
