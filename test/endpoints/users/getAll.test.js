@@ -3,7 +3,7 @@ import consts from '../utils/consts';
 describe('Users', function () {
   describe('getAll', function () {
 
-    it('Get all users', function () {
+    it('Get all users', function (done) {
       chai.
         request(consts.SERVER).
         get('/api/users').
@@ -18,6 +18,8 @@ describe('Users', function () {
             expect(user).to.have.property('name').to.be.a('string');
             expect(user).to.have.property('email').to.be.a('string');
           });
+
+          done();
         });
     });
 
