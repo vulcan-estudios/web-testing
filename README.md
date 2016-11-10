@@ -2,38 +2,43 @@
 
 [![vulcan-estudios](https://img.shields.io/badge/vulcan_estudios-project-db8836.svg)](http://vulcanst.co)
 
-Node.js, MongoDB, Express and React web application example with unit and integration tests written in Mocha, Chai, Karma and Enzyme.
+Una introducción general a software testing orientada a aplicaciones web con ejemplos de implementación.
 
-## Install
+[![Web Testing](./part5/wallpaper.png)](https://www.youtube.com/playlist?list=PLAIjpj9Un1BBA1y_6VQuVLEuJY8rMavRV)
 
-Using Vagrant, start the box and everything will be installed:
+## Partes
 
-```bash
-$ vagrant up
-```
+- [Parte 1: Fundamentos](./part1)
+- [Parte 2: BDD con Mocha y Chai](./part2)
+- [Parte 3: Karma](./part3)
+- [Parte 4: Enzyme](./part4)
+- [Parte 5: Integration testing de endpoints](./part5)
 
-## Start
+Ver **[lista de vídeos](https://www.youtube.com/playlist?list=PLAIjpj9Un1BBA1y_6VQuVLEuJY8rMavRV)** de cada parte.
 
-Get inside:
+## Herramientas de testeo
 
-```bash
-$ vagrant ssh
-```
+- [Mocha](http://mochajs.org)
+- [Chai](http://chaijs.com)
+- [Karma](http://karma-runner.github.io)
+- [Enzyme](http://airbnb.io/enzyme)
+- [Chai HTTP](http://chaijs.com/plugins/chai-http)
+- [Chai Enzyme](https://github.com/producthunt/chai-enzyme)
 
-And start the MongoDB server and the application server:
+## Herramientas de desarrollo
 
-```bash
-$ sudo service mongod start
-$ cd /vagrant
-$ npm run start
-```
+- [Node.js](http://nodejs.org)
+- [Express](http://expressjs.com)
+- [MongoDB](http://mongodb.org)
+- [Mongoose](http://mongoosejs.com)
+- [jQuery](http://jquery.com)
+- [Backbone](http://backbonejs.org)
+- [React](http://facebook.github.io/react)
 
-## Run tests
+## Herramientas extras
 
-```bash
-$ cd /vagrant
-$ npm run test
-```
+- [Babel](http://babeljs.io)
+- [Webpack](http://webpack.github.io)
 
 ## License
 
