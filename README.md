@@ -3,7 +3,7 @@
 [![vulcan-estudios](https://img.shields.io/badge/vulcan_estudios-project-db8836.svg)](http://vulcanst.co)
 [![license](https://img.shields.io/github/license/vulcan-estudios/vulcangrid.svg?maxAge=2592000)](./LICENSE)
 
-Una introducción general a software testing orientada a aplicaciones web con ejemplos de implementación.
+Una introducción general a software testing orientada a aplicaciones web basadas en JavaScript con ejemplos de implementación.
 
 [![Web Testing](./part4/wallpaper.png)](https://www.youtube.com/playlist?list=PLAIjpj9Un1BBA1y_6VQuVLEuJY8rMavRV)
 
