@@ -1,4 +1,4 @@
-# web-testing
+# Introducción a Testing de Web Apps
 
 [![vulcan-estudios](https://img.shields.io/badge/vulcan_estudios-project-db8836.svg)](http://vulcanst.co)
 [![license](https://img.shields.io/github/license/vulcan-estudios/vulcangrid.svg?maxAge=2592000)](./LICENSE)
